@@ -39,3 +39,17 @@ These frames are arranged in a stack. The frame for the most recently called fun
 When a new function is called, a new frame is pushed onto the top of the stack and becomes the active frame.
 
 When a function finishes its works, its frame is popped off of the stack, and the frame immediately below it becomes the new active function on the top of the stack. This function pick up immediately where it left off.
+
+# Backtracking
+
+Backtracking is an effective technique for solving algorithmic problems. In backtracking, we search depth-first for solutions, backtracking to the last valid path as soon as we hit a dead end.
+
+Backtracking reduces the search space since we no longer have to follow down any paths we know are invalid. This is called pruning. We must be able to test partial solutions: for example, we can’t find a global optimum using backtracking, since we have no idea if the solution we’re currently on can lead to it or not. But we can, for example, solve Sudoku using backtracking. We can know immediately if our solution so far is invalid by testing if two of the same number appear in the same row, column, or square.
+
+## Backtracking Approach
+
+  - Design recursion function to return success/failure.
+  - At each call, choose one option and go with it.
+  - Recursively proceed and see what happens.
+  - If it works out continue, otherwise unmake choice and try again.
+  - If no option worked, return fail result which triggers backtracking.(un-making earlier decisions)
