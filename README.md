@@ -28,6 +28,18 @@ Every recursive algorithm involves at least 2 cases:
 
 Number of Recursive calls : There is an upper limit to the number of recursive calls that can be made. To prevent this make sure that your base case is reached before stack size limit exceeds. (stack overflow error)
 
+### Common Recursive Algorithms
+
+  - Fibonacci, factorial
+  - Merge Sort, Quick Sort
+  - Binary Search
+  - Tree traversals (inOrder, preOrder, postOrder)
+  - Graph traversals (Breadth First Search and Depth First Search)
+  - Dynamic programming
+  - Divide and Conquer Algorithms
+  - Backtracking Algorithms
+
+
 ## Call Stack
 
 When you call a function, the system sets aside space in memory for that function to do its necessary works.
