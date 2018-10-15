@@ -65,3 +65,15 @@ Backtracking reduces the search space since we no longer have to follow down any
   - Recursively proceed and see what happens.
   - If it works out continue, otherwise unmake choice and try again.
   - If no option worked, return fail result which triggers backtracking.(un-making earlier decisions)
+
+An algorithm Backtrack when the current solution is invalid.
+
+Most problem uses backtracking.
+### Backtracking Problems:
+  - Depth First search.
+  - N Queens.
+  - Knapsack problem. (depends on implementation)
+
+### Non Backtracking Problems
+  - Find all permutations.
+  - Stairs case problem.
