@@ -58,7 +58,6 @@ Backtracking is an effective technique for solving algorithmic problems. In back
 
 Backtracking reduces the search space since we no longer have to follow down any paths we know are invalid. This is called pruning. We must be able to test partial solutions.
 
-For example, we can’t find a global optimum using backtracking, since we have no idea if the solution we’re currently on can lead to it or not. But we can, for example, solve Sudoku using backtracking. We can know immediately if our solution so far is invalid by testing if two of the same number appear in the same row, column, or square.
 
 ## Backtracking Approach
 
@@ -70,7 +69,7 @@ For example, we can’t find a global optimum using backtracking, since we have 
 
 An algorithm Backtrack when the current solution is invalid.
 
-Most problem uses backtracking.
+Most problems uses backtracking.
 ### Backtracking Problems:
   - Depth First search.
   - N Queens.
@@ -79,3 +78,13 @@ Most problem uses backtracking.
 ### Non Backtracking Problems
   - Find all permutations.
   - Stairs case problem.
+
+
+## Recursion vs iteration
+
+  - All recursive problem can be solved iteratively and vice versa.
+  - If equal time complexity, iterative is usually faster.
+  - Converting from recursive to iterative:
+      - Not always easy to do.
+      - Can you iteratively compute larger subproblems.
+      - Can you emulate the recursive stack using other data structure.
