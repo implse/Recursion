@@ -70,6 +70,7 @@ Backtracking reduces the search space since we no longer have to follow down any
 An algorithm Backtrack when the current solution is invalid.
 
 Most problems uses backtracking.
+
 ### Backtracking Problems:
   - Depth First search.
   - N Queens.
