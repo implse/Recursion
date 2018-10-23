@@ -10,8 +10,7 @@ def indices_A(arr, i):
     print(arr[i])
   indices_A(arr, i+1)
 
-
-# Optimize Solution - reduce recursice calls
+# Optimize Solution - reduce recursive calls
 def indices_B(arr, i):
   # Base case
   if i >= len(arr):
@@ -20,14 +19,10 @@ def indices_B(arr, i):
   print(arr[i])
   indices_B(arr, i+2)
 
-
 # Test
 a = [2, 4, 6, 8, 10, 12]
 
-
 # Indices A
 indices_A(a, 0)
-
-
 # Indices B start i = 1
 indices_B(a, 1)
