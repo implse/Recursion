@@ -24,7 +24,10 @@ def indices_B(arr, i):
 # Test
 a = [2, 4, 6, 8, 10, 12]
 
+
 # Indices A
 indices_A(a, 0)
+
+
 # Indices B start i = 1
 indices_B(a, 1)
