@@ -1,4 +1,6 @@
-# Write a recursive function diceRoll that accepts an integer representing a number of 6 sided dice to roll, and output all possible combinations of values that could appear on the dice.
+# Write a recursive function diceRoll that accepts an integer representing a number
+# of 6 sided dice to roll, and output all possible combinations of values
+# that could appear on the dice.
 
 def diceRoll(dice):
   def diceRoll_helper(dice, chosen=[]):
@@ -7,7 +9,7 @@ def diceRoll(dice):
       print(chosen)
     else:
       # Recursive case
-      for i in range(1, 6+1):
+      for i in range(1, 7):
         # choose
         chosen.append(i)
         # explore
@@ -17,4 +19,4 @@ def diceRoll(dice):
   return diceRoll_helper(dice, chosen=[])
 
 # Test
-diceRoll(2)
+diceRoll(3)
