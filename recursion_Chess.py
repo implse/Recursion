@@ -1,5 +1,5 @@
 # Write a function solveQueens that accepts a Board as a parameter and tries to place 8 queens on it safely.
-
+# https://www.cs.usfca.edu/~galles/visualization/RecQueens.html
 def queens(size):
     board = [-1] * size
     return n_queens(board, 0, size)
@@ -23,6 +23,6 @@ def is_safe(board, current):
         if current - i == abs(board[current] - board[i]):
             return False
     return True
-    
+
 # Test
 print(queens(8))
