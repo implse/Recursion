@@ -2,9 +2,9 @@
 
 # Recursion
 
-Functions that call themselves to solve problems that are recursive in nature.
+Functions that call themselves to solve problems are recursive in nature.
 
-When a function calls itself, its called Recursion
+When a function calls itself, its called `Recursion`
 
   - Powerful substitute for iterations.(for loop)
   - Well suited to solving certain types of problems.
@@ -19,10 +19,10 @@ Occurs in many places in code and real world :
 
 Every recursive algorithm involves at least 2 cases:
 
-  - Base case : A simple occurrence that can be answered directly. Terminate the recursive process.
+  - `Base case` : A simple occurrence that can be answered directly. Terminate the recursive process.
 
 
-  - Recursive case : A more complex occurrence of the problem that cannot be directly answered, but can
+  - `Recursive case` : A more complex occurrence of the problem that cannot be directly answered, but can
   instead be described in terms of smaller occurrence of the same problem.
 
 
@@ -33,7 +33,7 @@ Number of Recursive calls : There is an upper limit to the number of recursive c
   - Fibonacci, factorial
   - Merge Sort, Quick Sort
   - Binary Search
-  - Tree traversals (inOrder, preOrder, postOrder)
+  - Tree traversals (in-Order, pre-Order, post-Order)
   - Graph traversals (Breadth First Search and Depth First Search)
   - Dynamic programming
   - Divide and Conquer Algorithms
@@ -46,11 +46,11 @@ When you call a function, the system sets aside space in memory for that functio
 
 We frequently call such chunks of memory stacks frames or function frames.
 
-These frames are arranged in a stack. The frame for the most recently called function is always on the top of the stack.
+These frames are arranged in a `stack`. The frame for the most recently called function is always on the top of the `stack`.
 
 When a new function is called, a new frame is pushed onto the top of the stack and becomes the active frame.
 
-When a function finishes its works, its frame is popped off of the stack, and the frame immediately below it becomes the new active function on the top of the stack. This function pick up immediately where it left off.
+When a function finishes its works, its frame is popped off of the `stack`, and the frame immediately below it becomes the new active function on the top of the `stack`. This function pick up immediately where it left off.
 
 # Backtracking
 
@@ -67,7 +67,7 @@ Backtracking reduces the search space since we no longer have to follow down any
   - If it works out continue, otherwise unmake choice and try again.
   - If no option worked, return fail result which triggers backtracking.(un-making earlier decisions)
 
-An algorithm Backtrack when the current solution is invalid.
+An algorithm backtrack when the current solution is invalid.
 
 Most problems uses backtracking.
 
