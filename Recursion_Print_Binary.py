@@ -15,3 +15,6 @@ def printBinary(n):
     restOfDigits = n // 2
     printBinary(restOfDigits)
     print(lastDigit, end="")
+
+
+printBinary(20)
