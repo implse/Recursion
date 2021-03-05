@@ -4,16 +4,16 @@
 
 Functions that call themselves to solve problems are recursive in nature.
 
-When a function calls itself, its called `Recursion`
+When a function calls itself, its called `recursion`
 
-  - Powerful substitute for iterations.(for loop)
+  - Powerful substitute for `iterations`.(`for loop`)
   - Well suited to solving certain types of problems.
   - Leads to elegant and simplistic short code.
-  - Functional programming (Haskell) use recursion exclusively.
+  - Functional programming (`Haskell`) use recursion exclusively.
 
 Occurs in many places in code and real world :
 
-  - Nested structures (trees, file folders, collections) can be self similar.
+  - Nested structures (`trees`, `file folders`, `collections`) can be self similar.
   - Patterns can contain smaller versions of the same pattern.
   - Shell, plants, mountains, etc.
 
@@ -26,25 +26,25 @@ Every recursive algorithm involves at least 2 cases:
   instead be described in terms of smaller occurrence of the same problem.
 
 
-Number of Recursive calls : There is an upper limit to the number of recursive calls that can be made. To prevent this make sure that your base case is reached before stack size limit exceeds. (stack overflow error)
+Number of Recursive calls : There is an upper limit to the number of recursive calls that can be made. To prevent this make sure that your base case is reached before `stack size limit` exceeds. (`stack overflow error`)
 
 ### Common Recursive Algorithms
 
-  - Fibonacci, factorial
+  - Fibonacci, Factorial
   - Merge Sort, Quick Sort
   - Binary Search
   - Tree traversals (in-Order, pre-Order, post-Order)
-  - Graph traversals (Breadth First Search and Depth First Search)
-  - Dynamic programming
+  - Graph Traversals (Breadth First Search and Depth First Search)
+  - Dynamic Programming
   - Divide and Conquer Algorithms
   - Backtracking Algorithms
 
 
 ## Call Stack
 
-When you call a function, the system sets aside space in memory for that function to do its necessary works.
+When you call a function, the system sets aside space in `memory` for that function to do its necessary works.
 
-We frequently call such chunks of memory stacks frames or function frames.
+We frequently call such chunks of memory `stacks frames` or `function frames`.
 
 These frames are arranged in a `stack`. The frame for the most recently called function is always on the top of the `stack`.
 
@@ -54,9 +54,9 @@ When a function finishes its works, its frame is popped off of the `stack`, and 
 
 # Backtracking
 
-Backtracking is an effective technique for solving algorithmic problems. In backtracking, we search depth-first for solutions, backtrack to the last valid path as soon as we hit a dead end.
+v`Backtracking` is an effective technique for solving algorithmic problems. In `backtracking`, we search `depth-first` for solutions, `backtrack` to the last valid path as soon as we hit a dead end.
 
-Backtracking reduces the search space since we no longer have to follow down any paths we know are invalid. This is called pruning. We must be able to test partial solutions.
+Backtracking reduces the search space since we no longer have to follow down any paths we know are invalid. This is called `pruning`. We must be able to test partial solutions.
 
 
 ## Backtracking Approach
