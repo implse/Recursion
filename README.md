@@ -1,5 +1,7 @@
 # Recursion and Backtracking
 
+Recursion helps break complex problems into simple parts.
+
 # Recursion
 
 Functions that call themselves to solve problems are recursive in nature.
@@ -54,7 +56,7 @@ When a function finishes its works, its frame is popped off of the `stack`, and 
 
 # Backtracking
 
-v`Backtracking` is an effective technique for solving algorithmic problems. In `backtracking`, we search `depth-first` for solutions, `backtrack` to the last valid path as soon as we hit a dead end.
+`Backtracking` is an effective technique for solving algorithmic problems. In `backtracking`, we search `depth-first` for solutions, `backtrack` to the last valid path as soon as we hit a dead end.
 
 Backtracking reduces the search space since we no longer have to follow down any paths we know are invalid. This is called `pruning`. We must be able to test partial solutions.
 
@@ -89,3 +91,11 @@ Most problems uses backtracking.
       - Not always easy to do.
       - Can you iteratively compute larger subproblems.
       - Can you emulate the recursive stack using other data structure.
+
+## Uses of Recursion
+
+  - Traversing hierarchical data structures, such as DOM tree, XML, file systems.
+  - Data mining using web crawlers.
+  - Used in compilers and linkers in the software build process.
+  - Evaluation of arithmetic expressions.
+  - Passing technical interviews.
