@@ -48,11 +48,22 @@ When you call a function, the system sets aside space in `memory` for that funct
 
 We frequently call such chunks of memory `stacks frames` or `function frames`.
 
-These frames are arranged in a `stack`. The frame for the most recently called function is always on the top of the `stack`.
+These frames are arranged in a `stack`. The `frame` for the most recently called function is always on the top of the `stack`.
 
-When a new function is called, a new frame is pushed onto the top of the stack and becomes the active frame.
+When a new function is called, a `new frame` is pushed onto the top of the `stack` and becomes the active `frame`.
 
-When a function finishes its works, its frame is popped off of the `stack`, and the frame immediately below it becomes the new active function on the top of the `stack`. This function pick up immediately where it left off.
+When a function finishes its works, its `frame` is popped off of the `stack`, and the `frame` immediately below it becomes the new active function on the top of the `stack`. This function pick up immediately where it left off.
+
+
+## Stages of a Recursive Algorithm
+
+There are two stages to a recursive algorithm:
+
+  - What happens `before` we reach the `base case`.
+  - What happens `after` we reach the `base case`.
+
+These stages are called `winding` and `unwinding`.
+
 
 # Backtracking
 
