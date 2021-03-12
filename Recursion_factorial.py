@@ -1,4 +1,4 @@
-# Recursive factorial
+# Factorial Recursive
 def factorial(n):
     if n == 0:
         return 1 # Base case
@@ -17,7 +17,7 @@ def factorial_memo(n):
     return factorial(n)
 
 
-# Iterative factorial
+# Factorial Iterative
 def factorial_iterative(n):
     product = 1
     while n > 0:
