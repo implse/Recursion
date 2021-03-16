@@ -110,3 +110,26 @@ Most problems uses backtracking.
   - Used in compilers and linkers in the software build process.
   - Evaluation of arithmetic expressions.
   - Passing technical interviews.
+
+
+## Handling Recursion Limit in Python
+
+When `recursion` is called, frames containing data for each successive call are added to the `stack`.
+
+Python has a limit for recursive call to avoid using up to much memory.
+
+`maximum recursion depth exceeded error`
+
+The `sys` module in Python provides a function called `setrecursionlimit()` to modify the recursion limit in Python.
+
+It takes one parameter, the value of the new recursion limit. By default, this value is usually 10^4.
+
+```
+import sys
+
+sys.getrecursionLimit()
+
+sys.setrecursionLimit(increase_the_number)
+
+
+```
