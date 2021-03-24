@@ -41,6 +41,12 @@ Number of Recursive calls : There is an upper limit to the number of recursive c
   - Divide and Conquer Algorithms
   - Backtracking Algorithms
 
+### Easiest Way to Approach a Recursive Problem
+
+  - Figure out the `base case`
+  - Assume `subproblems` can be solved by `recursion` (automatically)
+  - Using the `subproblems` write the answer for the current problem
+
 
 ## Call Stack
 
@@ -85,11 +91,13 @@ An algorithm backtrack when the current solution is invalid.
 Most problems uses backtracking.
 
 ### Backtracking Problems:
+
   - Depth First search.
   - N Queens.
   - Knapsack problem. (depends on implementation)
 
 ### Non Backtracking Problems
+
   - Find all permutations.
   - Stairs case problem.
 
@@ -122,7 +130,7 @@ Python has a limit for recursive call to avoid using up to much memory.
 
 The `sys` module in Python provides a function called `setrecursionlimit()` to modify the recursion limit in Python.
 
-It takes one parameter, the value of the new recursion limit. By default, this value is usually 10^4.
+It takes one parameter, the value of the new recursion limit. By default, this value is usually `10**4`.
 
 ```
 import sys
