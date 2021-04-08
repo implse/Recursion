@@ -2,7 +2,7 @@
 # numbers to each index of the list.
 
 
-# Recursive Solution : Top to Bottom (Head recursionn)
+# Recursive Solution : Top to Bottom (Head recursion)
 def sum_recursive(lst, idx):
     if idx <= 1:
         return
