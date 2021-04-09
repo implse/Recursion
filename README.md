@@ -19,6 +19,10 @@ Occurs in many places in code and real world :
   - Patterns can contain smaller versions of the same pattern.
   - Shell, plants, mountains, etc.
 
+
+A `recursive function` invoke the same `function` with a different `input` until you reach the `base case`.
+
+
 Every recursive algorithm involves at least 2 cases:
 
   - `Base case` : A simple occurrence that can be answered directly. Terminate the recursive process.
