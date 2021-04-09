@@ -93,9 +93,9 @@ To build the formula, you need to look at :
 
 ### Space Complexity
 
-The maximum space consumed by a recursive program is proportional to the maximum depth of the recursion tree.
+The maximum `space` consumed by a recursive program is proportional to the maximum `depth` of the `recursion tree`.
 
-The maximum depth of the recursion tree is defined as the length of the longest path in the tree
+The maximum `depth` of the `recursion tre`e is defined as the `length` of the longest `path` in the `tree`.
 
 
 
