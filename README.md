@@ -72,13 +72,22 @@ These stages are called `winding` and `unwinding`.
 
 ## Recursive Algorithm Complexity
 
-To evaluate recursive algorithm complexity we need to follow this steps:
+To evaluate recursive algorithm `time complexity` we need to follow this steps:
 
-  - Calculate the complexity of a single call
+  - Calculate the `time complexity` of a single call (single call complexity : cost 1)
 
   - Express the number of recursive calls through input parameters
 
   - Multiply the number of recursive calls by a single call complexity
+
+
+To build the formula, you need to look at:
+
+  - Single call complexity
+
+  - The number of recursive calls
+
+  - Levels number in the call tree
 
 
 # Backtracking
