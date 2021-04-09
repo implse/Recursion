@@ -70,6 +70,16 @@ There are two stages to a recursive algorithm:
 
 These stages are called `winding` and `unwinding`.
 
+## Recursive Algorithm Complexity
+
+To evaluate recursive algorithm complexity we need to follow this steps:
+
+  - Calculate the complexity of a single call
+
+  - Express the number of recursive calls through input parameters
+
+  - Multiply the number of recursive calls by a single call complexity
+
 
 # Backtracking
 
