@@ -72,6 +72,8 @@ These stages are called `winding` and `unwinding`.
 
 ## Recursive Algorithm Complexity
 
+### Time Complexity
+
 To evaluate recursive algorithm `time complexity` we need to follow this steps:
 
   - Calculate the `time complexity` of a single call (single call complexity : cost 1)
@@ -81,13 +83,20 @@ To evaluate recursive algorithm `time complexity` we need to follow this steps:
   - Multiply the number of recursive calls by a single call complexity
 
 
-To build the formula, you need to look at:
+To build the formula, you need to look at :
 
   - Single call complexity
 
   - The number of recursive calls
 
   - Levels number in the call tree
+
+### Space Complexity
+
+The maximum space consumed by a recursive program is proportional to the maximum depth of the recursion tree.
+
+The maximum depth of the recursion tree is defined as the length of the longest path in the tree
+
 
 
 # Backtracking
