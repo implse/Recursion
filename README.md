@@ -107,7 +107,7 @@ The maximum `depth` of the `recursion tre`e is defined as the `length` of the lo
 
 `Backtracking` is an effective technique for solving algorithmic problems. In `backtracking`, we search `depth-first` for solutions, `backtrack` to the last valid path as soon as we hit a dead end.
 
-Backtracking reduces the search space since we no longer have to follow down any paths we know are invalid. This is called `pruning`. We must be able to test partial solutions.
+`Backtracking` reduces the search space since we no longer have to follow down any paths we know are invalid. This is called `pruning`. We must be able to test partial solutions.
 
 
 ## Backtracking Approach
@@ -134,7 +134,7 @@ Most problems uses backtracking.
   - Stairs case problem.
 
 
-## Recursion vs iteration
+## Recursion vs Iteration
 
   - All recursive problem can be solved iteratively and vice versa.
   - If equal time complexity, iterative is usually faster.
