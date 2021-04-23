@@ -25,7 +25,7 @@ A `recursive function` invoke the same `function` with a different `input` until
 
 Every recursive algorithm involves at least 2 cases:
 
-  - `Base case` : A simple occurrence that can be answered directly. Terminate the recursive process.
+  - `Base case` : A simple occurrence that can be answered directly. Terminate the recursive process. (start `unwinding recursion`)
 
 
   - `Recursive case` : A more complex occurrence of the problem that cannot be directly answered, but can
@@ -109,6 +109,10 @@ The maximum `depth` of the `recursion tre`e is defined as the `length` of the lo
 
 `Backtracking` reduces the search space since we no longer have to follow down any paths we know are invalid. This is called `pruning`. We must be able to test partial solutions.
 
+If decisions doesn't work, step back and make another decision with different choice.
+
+`Backtracking` is often much faster than `brute force` enumeration of all complete candidates, because it can eliminate a larger number of candidates with a single test.
+
 
 ## Backtracking Approach
 
@@ -118,14 +122,15 @@ The maximum `depth` of the `recursion tre`e is defined as the `length` of the lo
   - If it works out continue, otherwise unmake choice and try again.
   - If no option worked, return fail result which triggers backtracking.(un-making earlier decisions)
 
-An algorithm backtrack when the current solution is invalid.
+An algorithm `backtrack` when the current solution is invalid.
 
-Most problems uses backtracking.
+Most problems uses `backtracking`.
 
 ### Backtracking Problems:
 
   - Depth First search.
   - N Queens.
+  - Sudoku
   - Knapsack problem. (depends on implementation)
 
 ### Non Backtracking Problems
