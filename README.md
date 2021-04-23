@@ -116,7 +116,7 @@ If decisions doesn't work, step back and make another decision with different ch
 
 ## Backtracking Approach
 
-  - Design recursion function to return success/failure.
+  - Design a `recursive` function to return `success` or `failure`.
   - At each call, choose one option and go with it.
   - Recursively proceed and see what happens.
   - If it works out continue, otherwise unmake choice and try again.
