@@ -1,6 +1,6 @@
 # Recursion and Backtracking
 
-Recursion helps break complex problems into simple parts.
+Recursion is one of the most fundamental concepts in computer science, it helps break complex problems into simple parts.
 
 # Recursion
 
@@ -8,7 +8,7 @@ Functions that call themselves to solve problems are recursive in nature.
 
 When a function calls itself, its called `recursion`
 
-  - Powerful substitute for `iterations`.(`for loop`)
+  - Powerful substitute for `iterations`. (`for loop`)
   - Well suited to solving certain types of problems.
   - Leads to elegant and simplistic short code.
   - Functional programming (`Haskell`) use recursion exclusively.
