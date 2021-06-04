@@ -178,3 +178,19 @@ sys.setrecursionLimit(increase_the_number)
 
 
 ```
+## Caching With @lru_cache
+
+`functools` module comes with the `@lru_cache` decorator, which gives you the ability to cache the result of your functions using the Least Recently Used (LRU) strategy.
+
+`@lru_cache` uses a dictionary behind the scenes. It caches the function’s result under a `key` that consists of the call to the function, including the supplied arguments. These arguments have to be `hashable` for the `decorator` to work.
+
+```
+from functools import lru_cache
+
+@lru_cache(maxsize = 128)
+def fibonacci(n):
+    if n < 2:
+        return n
+    return fibonacci(n - 1) + fibonacci(n - 2)
+
+```
