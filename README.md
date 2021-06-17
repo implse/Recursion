@@ -194,3 +194,17 @@ def fibonacci(n):
     return fibonacci(n - 1) + fibonacci(n - 2)
 
 ```
+
+## The Six Recursive Core Patterns
+
+  - `Iteration` : Any problem that can be solved iteratively can be solved using recursion. Iterate over of variety of data-structure. (tree, linked list)
+
+  - `Sub-problem`: If a problem can be break down into its sub-problems then we can use this to solve any recursive problems.
+
+  - `Selection`: Use combination. It is the most common pattern to come up in recursion and dynamic programming. In this pattern, we are going through all the possible solutions and selecting the ones which match our condition. (0/1 Knapsack, N-Queens)
+
+  - `Ordering` : Use permutations to solve many common recursive problems.(similar to selections except order matters)  By combining the selection and ordering pattern, you can cover a great number of recursive problems.
+
+  - `Divide and Conquer` : Divide and conquer is the core of many algorithms such as merge sort, binary search.
+
+  - `Depth First Search`:
